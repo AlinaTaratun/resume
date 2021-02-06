@@ -76,20 +76,17 @@ body {
     body {
         font-size: 0.9rem;
     }
-    .header {
+    .text1 {
         font-size: 0.9rem;
     }
-    .text1 {
-        font-size: 1.5rem;
-    }
     .name2 {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .grid-container {
         grid: repeat(6, auto) / 1fr;   
     }
     .footer {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 .name{
