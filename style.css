@@ -3,17 +3,13 @@ body {
     background-color: #F6F6F6;
     margin: 5%;
 }
-h1{
-    margin-bottom: 13px;
-}
 .name2{ 
     margin-top: 9px;
     font-size: 25px;
     margin-bottom: 31px;
 }
-
 .header{
-    margin-bottom: 37px;
+    margin-bottom: 31px;
 }
 .text1{
     font-size: 3rem;
@@ -27,8 +23,7 @@ h1{
 }
 .rotate1{
     transform: rotate(-19.52deg);
-    margin-bottom: 26px;
-    
+    margin-bottom: 26px; 
 }
 .rotate2{
     transform: rotate(-12.41deg);
@@ -40,7 +35,6 @@ h1{
     transform: rotate(21.25deg);
     margin-left: 80px;
     margin-bottom: 40px;
-
 }
 .rotate5{
     transform: rotate(-0.6deg);
@@ -85,8 +79,17 @@ h1{
     .header {
         font-size: 0.9rem;
     }
+    .text1 {
+        font-size: 1.5rem;
+    }
+    .name2 {
+        font-size: 1.1rem;
+    }
     .grid-container {
-        grid: repeat(6, auto) / 1fr;
+        grid: repeat(6, auto) / 1fr;   
+    }
+    .footer {
+        font-size: 1rem;
     }
 }
 .name{
